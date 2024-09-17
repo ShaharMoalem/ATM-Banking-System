@@ -1,5 +1,6 @@
+
 # ATM-Banking-System
-An implemented of a multi-threaded banking system in C++
+An implemented multi-threaded banking system in C++
 
 ## Description
 This project implements a multi-threaded ATM banking system using POSIX `pthreads`, designed to simulate multiple ATMs performing concurrent transactions on shared bank accounts. The system supports operations such as withdrawals, deposits, and balance transfers between accounts, with each ATM functioning in parallel, handling operations independently. The project demonstrates my ability to design concurrent systems and apply synchronization mechanisms to ensure the integrity of shared data, with a focus on parallel programming and concurrency control.
@@ -48,7 +49,7 @@ This project implements a multi-threaded ATM banking system using POSIX `pthread
 
 2. Run the program with input files for each ATM:
    ```bash
-   ./Bank atm_input1.txt atm_input2.txt ...
+   ./ATM atm_input1.txt atm_input2.txt ...
    ```
 
 ### Commands Supported
@@ -76,3 +77,4 @@ Error ATM 1: Your transaction failed – account id 12345 balance is lower than 
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository, make your improvements, and submit a pull request.
+```
